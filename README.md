@@ -16,9 +16,12 @@ It is a .sh script that allows to use gcc as a preprocessor for python.
     2.  src
     3. py
 
-In the include folder goes all macro files.
-In the src folder goes all your source code
-In the py folder goes all the source code processed by gcc.
+In the include folder go all macro files.
+In the src folder go all your source code
+In the py folder go all the source code processed by gcc.
+
+## GIT
+When using git for your project, all the py folder to your .gitignore.
 
 ## Drawbacks
 Usage of ppp coemes with several drawbacks:
@@ -29,4 +32,4 @@ Usage of ppp coemes with several drawbacks:
 3. Clicking on a py file in an error output opens the file in the py folder.
    You have to switch to the coresbonding file in the src folder.
 4. Line number in error messages are not correct anymore, because gcc introduces some 
-   lines at the top to files in the py flder.
+   lines at the top to files in the py folder.
